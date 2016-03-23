@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="oneColLiqCtrHdr.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header"><img src="current.jpg" width="1080" height="429" /><!-- end .header --></div>
+  <div class="content">
+    <ul id="MenuBar1" class="MenuBarHorizontal">
+           <li><a class="MenuBarItemSubmenu" href="#">LOGIN</a>
+        <ul>
+          <li><a href="new.html">Registered User</a></li>
+          <li><a href="register.html">New User</a></li>
+</ul>
+      </li>
+      <li><a class="MenuBarItemSubmenu" href="#">Movies</a>
+              <ul>
+          <li><a href="current_movie.html">Current Movie</a></li>
+          <li><a href="movie_time">Movie TimeTable</a></li>
+        </ul>
+      </li>
+      <li><a class="MenuBarItemSubmenu" href="#">Book Ticket</a>
+        <ul>
+          <li><a href="current_movie.html">Current Movie</a>          </li>
+          <li><a href="movie_time">Movie in the Week</a></li>
+</ul>
+      </li>
+      <li><a href="benefit.html">Offers</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <br> <br>
+    <p>&nbsp;</p>
+    
+    <p>Movie TimeTable For the week......</p>
+    <p>Have Fun watching this movie.</p>
+    <form action ="movie_time" method="post">
+      <table width="855" height="415" border="1">
+        <tr>
+          <td>MOVIE NAME</td>
+          <td>9:00-12:00</td>
+          <td>12:00-3:00</td>
+          <td>3:00-5:00</td>
+          <td>5:00-9:00</td>
+        </tr>
+        <tr>
+          <td><input type ="text" name="movie1" readonly="true"/></td>
+          <td><input type="submit" name="b1" id="button1" value="Book Now1" /></td>
+          <td><input type="submit" name="b1" id="b2" value="Book Now2" /></td>
+          <td><input type="submit" name="b1" id="b3" value="Book Now3" /></td>
+          <td> <input type="submit" name="b1" id="b4" value="Book Now4" /></td>
+        </tr>
+        <tr>
+          <td><input type ="text" name="movie2" readonly="true"/></td>
+          <td><input type="submit" name="b1" id="button1" value="Book Now1" /></td>
+          <td><input type="submit" name="b1" id="b2" value="Book Now2" /></td>
+          <td><input type="submit" name="b1" id="b3" value="Book Now3" /></td>
+          <td><input type="submit" name="b1" id="b4" value="Book Now4" /></td>
+        </tr>
+        <tr>
+          <td><input type ="text" name="movie3" readonly="true"/></td>
+          <td><input type="submit" name="b1" id="button1" value="Book Now1" /></td>
+          <td><input type="submit" name="b1" id="b2" value="Book Now2" /></td>
+          <td><input type="submit" name="b1" id="b3" value="Book Now3" /></td>
+          <td><input type="submit" name="b1" id="b4" value="Book Now4" /></td>
+        </tr>
+        <tr>
+          <td><input type ="text" name="movie4" readonly="true"/></td>
+          <td><input type="submit" name="b1" id="button1" value="Book Now1" /></td>
+          <td><input type="submit" name="b1" id="b2" value="Book Now2" /></td>
+          <td><input type="submit" name="b1" id="b3" value="Book Now3" /></td>
+          <td><input type="submit" name="b1" id="b4" value="Book Now4" /></td>
+        </tr>
+        <tr>
+          <td><input type ="text" name="movie5" readonly="true"/></td>
+          <td><input type="submit" name="b1" id="button1" value="Book Now1" /></td>
+          <td><input type="submit" name="b1" id="b2" value="Book Now2" /></td>
+          <td><input type="submit" name="b1" id="b3" value="Book Now3" /></td>
+          <td><input type="submit" name="b1" id="b4" value="Book Now4" /></td>
+        </tr>
+        <tr>
+          <td><input type ="text" name="movie6" readonly="true"/></td>
+          <td><input type="submit" name="b1" id="button1" value="Book Now1" /></td>
+          <td><input type="submit" name="b1" id="b2" value="Book Now2" /></td>
+          <td><input type="submit" name="b1" id="b3" value="Book Now3" /></td>
+          <td><input type="submit" name="b1" id="b4" value="Book Now4" /></td>
+        </tr>
+      </table>
+      <br>
+    </form>
+<h1>&nbsp;</h1>
+  <!-- end .content --></div>
+  <div class="footer">
+    <p>This Site Belongs To Book My Show.</p>
+  <!-- end .footer --></div>
+<!-- end .container --></div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>
