@@ -13,8 +13,9 @@ by the management
 ## Features:
 - User could create its own accout.
 - Employee account is created.
+- Admin could change movie name and posters.
 - Employee could book ticket from counter as well as User could book it online.
-- Movie name and poster are generated dynamically from database.
+- Movie name and poster are generated dynamically from database
 
 ##Licence
 The content of this repository is licensed under a [Creative Commons Attribution License](http://creativecommons.org/licenses/by/3.0/us/)
